@@ -4,9 +4,9 @@
 ## Que es SCAR ?
 Scar es un sistema facil de replicar y de instalar en sistemas limitados , pensado como sustitucion al control de acceso convencional (papel y lapiz) que se utiliza en muchas colonias privadas en mexico. su objetivo es lograr las siguientes cosas:
 
--[x]Control de acceso por Qr para zonas residenciales.
--[x]Alternativa Opensource a software de paga.
--[ ]Control de acceso seguro punto a punto .
+- [x] Control de acceso por Qr para zonas residenciales.
+- [x] Alternativa Opensource a software de paga.
+- [ ] Control de acceso seguro punto a punto .
 
 ## Arquitectura de SCAR
 Se eligio el lenguaje de programacion de python , siendo las partes significativas escritas en este lenguaje.
