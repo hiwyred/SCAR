@@ -38,14 +38,14 @@ una vez iniciado esto recuerda inicializar las variables de l cifrador y no deja
     python
     obj2 = AES.new('This is a key123', AES.MODE_CBC, 'This is an IV456')
 
-**en progreso
+**en progreso**
 
 ### en "gatekeep.py" 
-**to-do
+**to-do**
 ### en "doorlock/doorlock.ino"
-**to-do
+**to-do**
 ## Instalacion 
-
+**to-do**
 
 ## Soporte
 se le dara soporte hasta enero 31 2021 en caso de que no haber imprevistos como defuncion de miembros de el equipo, en la medida de lo razonable .El software se entrega sin garantias, vease el documento license
