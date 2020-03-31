@@ -8,31 +8,12 @@ print("start videocammera")
 cap =cv2.VideoCapture(0)
 font =cv2.FONT_HERSHEY_DUPLEX
 
-# --- preparation
-
-import codecs
-
-def slashescape(err):
-    """ codecs error handler. err is UnicodeDecode instance. return
-    a tuple with a replacement for the unencodable part of the input
-    and a position where encoding should continue"""
-    #print err, dir(err), err.start, err.end, err.object[:err.start]
-    thebyte = err.object[err.start:err.end]
-    repl = u'\\x'+hex(ord(thebyte))[2:]
-    return (repl, err.end)
-
-codecs.register_error('slashescape', slashescape)
-
-# --- processing
-
 obj2 = AES.new('0123456789abcdef', AES.MODE_CBC, '0123456789abcdef')
 cypher2=""
 cypher=""
 Mensaje=b""
 contador=0
-string=b"...,...,...,Enero.31,Asff,,,...."
-print(string.decode('ascii'))
-print(string.decode('ascii'))
+
 while True:
 
         _, frame =cap.read(0)

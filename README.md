@@ -41,7 +41,11 @@ una vez iniciado esto recuerda inicializar las variables de l cifrador (iv y key
 
 obj2 = AES.new('cambiar esta key', AES.MODE_CBC, 'cambiar esta iv ')
 ```
-tambien PIL (python image library) y qrcode para python
+
+#### QRCODE
+tambien pillow y qrcode para generar los svg
+    
+    pip install qrcode[pil]
 
 
 ### en "gatekeep.py" 
@@ -54,7 +58,13 @@ o en python 3
     
     pip3 install pycrypto
 
-*to-do*
+muy importante: **sincroniza el cifrador en los 2 archivos** es decir ponerles el mismo iv y el mismo key 
+
+####OPENCV
+####PYZBAR
+####NUMPY
+
+
 ### en "doorlock/doorlock.ino"
 *to-do*
 ## Instalacion 
