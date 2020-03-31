@@ -35,7 +35,7 @@ o en python 3
 
 una vez iniciado esto recuerda inicializar las variables de l cifrador y no dejar ni la llave ni 
 
-'''python
+'''Python
 obj2 = AES.new('This is a key123', AES.MODE_CBC, 'This is an IV456')
 '''
 **en progreso**
