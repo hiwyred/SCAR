@@ -62,6 +62,7 @@ o en python 3
 muy importante: **sincroniza el cifrador en los 2 archivos** es decir ponerles el mismo iv y el mismo key 
 
 #### OPENCV
+es la libreria de vision por computadora por defacto , no vimos caso en cuestionar el status quo por el momento asi que en estos momentos usamos esta. 
 
     pip install opencv-python
 
@@ -70,24 +71,28 @@ o en python 3
     pip3 install opencv-python
 
 #### PYZBAR
+pyzbar ayuda en python allevar la magia de zbar esto es leer codigos qr y codigos de barras
 
-    pip install pycrypto
+    pip install pyzbar
 
 o en python 3
     
-    pip3 install pycrypto
+    pip3 install pyzbar
 
 #### NUMPY
+numpy es la libreria defacto de metodos numericos (a contraste de algebraicos) se lleva muy bien con opencv
 
-    pip install pycrypto
+    pip install numpy
 
 o en python 3
     
-    pip3 install pycrypto
-
+    pip3 install numpy
 
 ### EN **"doorlock/doorlock.ino"**
 Se requiere tener arduino instalado solamente
+
+#### Circuito de prueba
+
 *to-do*
 ## Instalacion 
 *to-do*
