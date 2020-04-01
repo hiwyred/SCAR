@@ -12,11 +12,11 @@ Scar es un sistema facil de replicar y de instalar en sistemas limitados , pensa
 Se eligio el lenguaje de programacion de python , siendo las partes significativas escritas en este lenguaje.
 
 
-## Dependencias
-### en "index.html"
+##Lista Dependencias:
+### EN **"index.html"**
 #### BULMA
 el index depende de Bulma, una poderosa libreria css y de fontawsome
-### en "server.py"
+### EN **"server.py"**
 #### BOTTLE 
 la principal dependencia del servidor es bottle , un servicio de microservidor con base en python, confiable y rapido para dar posivilidad a escalarlo a una api restful, instala con:
 
@@ -48,7 +48,8 @@ tambien pillow y qrcode para generar los svg
     pip install qrcode[pil]
 
 
-### en "gatekeep.py" 
+### EN **"gatekeep.py"** 
+
 #### PYCRIPTO 
 tambien depende de la misma libreria de encripcion
 
@@ -60,12 +61,33 @@ o en python 3
 
 muy importante: **sincroniza el cifrador en los 2 archivos** es decir ponerles el mismo iv y el mismo key 
 
-####OPENCV
-####PYZBAR
-####NUMPY
+#### OPENCV
+
+    pip install opencv-python
+
+o en python 3
+    
+    pip3 install opencv-python
+
+#### PYZBAR
+
+    pip install pycrypto
+
+o en python 3
+    
+    pip3 install pycrypto
+
+#### NUMPY
+
+    pip install pycrypto
+
+o en python 3
+    
+    pip3 install pycrypto
 
 
-### en "doorlock/doorlock.ino"
+### EN **"doorlock/doorlock.ino"**
+Se requiere tener arduino instalado solamente
 *to-do*
 ## Instalacion 
 *to-do*
