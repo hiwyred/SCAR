@@ -1,7 +1,10 @@
 
 # SCAR
-
+![scar Logo](/Multimedia/logo.png)
 ## Que es SCAR ?
+>Things are only impossible until they are not.”
+>-Captain Picard
+
 Scar es un sistema facil de replicar y de instalar en sistemas limitados , pensado como sustitucion al control de acceso convencional (papel y lapiz) que se utiliza en muchas colonias privadas en mexico. su objetivo es lograr las siguientes cosas:
 
 - [x] Control de acceso por Qr para zonas residenciales.
